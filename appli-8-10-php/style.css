@@ -1,0 +1,97 @@
+
+ body{
+    background-color: black;
+} 
+.cadre{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px rgb(189, 130, 238);
+    padding: 10px;
+    background-color: #FFF;
+    padding-top: 50px;
+    
+}
+input{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: block;
+    outline: none;
+    border-radius: 10px;
+}
+input::placeholder, input:focus{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+input:hover{
+    outline-offset:0 ;
+    outline-style: groove; 
+    outline-color: #00FF;
+    border: none;
+}
+input:focus{
+    outline-offset:0 ;
+    outline-style: groove; 
+    outline-color: rgb(194, 241, 245);
+    border: 1px solid white;
+    border-radius: 15px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    background-color: blueviolet;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #FFF;
+}
+button:hover{
+    background-color: rgb(102, 2, 196);
+    box-shadow: 0 3px 5px blueviolet ;
+}
+.card{
+    width: 60%;
+    margin: auto;
+    padding: 10px 5px;
+    border: 1px solid red;
+    border-radius: 15px;
+    background-color: rgb(226, 177, 206);
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    margin-top:15px ;
+    margin-bottom: 25px;
+}
+.card2{
+    width: 60%;
+    margin: auto;
+    padding: 10px 5px;
+    border: 1px solid rgb(0, 255, 106);
+    border-radius: 15px;
+    background-color: rgb(94, 129, 204);
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    margin-top:15px ;
+    margin-bottom: 25px;
+}
+h2{
+    text-align: center;
+}
+@media(max-width:866px){
+
+    input::placeholder, input:focus{
+        font-size: 1.2em;
+        font-weight: 500;
+        font-family: inherit;
+        text-align: center;
+    }
+    
+}
